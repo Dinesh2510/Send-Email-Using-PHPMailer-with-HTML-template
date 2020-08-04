@@ -27,9 +27,9 @@ if (!isset($post_email) && !isset($post_email)&& empty($post_email) && empty($po
 // $activation = mt_rand(100000, 999999);
  
     $to   = $post_email;
-    $from = 'digitalreader@pixeldev.in';
-    $name = 'Digital Reader';
-    $subject = 'PHPMailer 5.2 testing from PixelDev';
+    $from = 'your email;
+    $name = 'title';
+    $subject = 'PHPMailer 5.2 testing from Dinesh2510';
     $msg = 'This is mail about testing mailing using PHP.';
     $body= file_get_contents('email_verifiy.php'); 
     $body = str_replace('[[firstname]]', $post_name, $body);
@@ -45,20 +45,20 @@ if (!isset($post_email) && !isset($post_email)&& empty($post_email) && empty($po
         $mail->SMTPAuth = true; 
  
         $mail->SMTPSecure = 'ssl'; 
-        $mail->Host = 'mail.pixeldev.in';
+        $mail->Host = 'mail.smtp.com';
         $mail->Port = '465';  
-        $mail->Username = 'digitalreader@pixeldev.in';
-        $mail->Password = 'Pixel@1234@';   
+        $mail->Username = 'your email';
+        $mail->Password = 'your password';   
    
    //   $path = 'reseller.pdf';
    //   $mail->AddAttachment($path);
    
         $mail->IsHTML(true);
-        $mail->From="digitalreader@pixeldev.in";
+        $mail->From="your email";
         $mail->FromName=$from_name;
         $mail->Sender=$from;
         $mail->AddReplyTo($from, $from_name);
-        $mail->Subject = "Digital Reader App confirmation ";
+        $mail->Subject = "your subject ";
         $mail->Body = $body;
         $mail->AddAddress($post_email);
         
