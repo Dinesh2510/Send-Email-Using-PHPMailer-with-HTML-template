@@ -297,7 +297,7 @@ ul.social li{
           	<table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
           		<tr>
           			<td class="logo" style="text-align: center;">
-			            <h1><a href="#">e-Verify</a></h1>
+			            <h1><a href="#">Thank You for Registration with Digital Cart</a></h1>
 			          </td>
           		</tr>
           	</table>
@@ -306,21 +306,16 @@ ul.social li{
 				<tr>
           <td valign="middle" class="hero bg_white" style="padding: 2em 0 4em 0;">
             <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
-            	<tr>
-            		<td style="padding: 0 2.5em; text-align: center; padding-bottom: 3em;">
-            			<div class="text">
-            				<h2>Ronald would like to be your friend on e-Verify</h2>
-            			</div>
-            		</td>
-            	</tr>
+            	
             	<tr>
 			          <td style="text-align: center;">
 			          	<div class="text-author">
-				          	<img src="https://github.com/ColorlibHQ/email-templates/blob/master/11/images/person_2.jpg?raw=true" alt="" style="width: 100px; max-width: 600px; height: auto; margin: auto; display: block;">
+				          	<img src="https://lh3.googleusercontent.com/pSdIJk1KaHAF8sQrpAzMn6PCYWpZ4-LD0piXTzImqOv7G23KiKxLd27_pWWy7XdnBfvS=s180-rw?raw=true" alt="" style="width: 100px; max-width: 600px; height: auto; margin: auto; display: block;">
 				          	<h3 class="name">[[firstname]]</h3>
-				          	<span class="position">CEO, Founder at e-Verify</span>
-				           	<p><a href="#" class="btn btn-primary">Accept Request</a></p>
-				           	<p><a href="#" class="btn-custom">Ignore Request</a></p>
+				          	<span class="position">[[personemail]]</span>
+				           	<p><a href="https://play.google.com/store/apps/details?id=com.digital.cart" class="btn btn-primary">Download Digital Cart</a></p>
+                    <span class="position">[[persondetail]]</span>
+				           	<p><a href="" class="btn-custom">Ignore Request</a></p>
 			           	</div>
 			          </td>
 			        </tr>
