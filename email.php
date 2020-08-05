@@ -27,13 +27,15 @@ if (!isset($post_email) && !isset($post_email)&& empty($post_email) && empty($po
 // $activation = mt_rand(100000, 999999);
  
     $to   = $post_email;
-    $from = 'your email;
-    $name = 'title';
-    $subject = 'PHPMailer 5.2 testing from Dinesh2510';
+    $from = 'your email';
+    $name = 'your  title';
+    $subject = 'PHPMailer 5.2 testing from PixelDev';
     $msg = 'This is mail about testing mailing using PHP.';
     $body= file_get_contents('email_verifiy.php'); 
     $body = str_replace('[[firstname]]', $post_name, $body);
-    $from_name="Digital Reader";
+    $body = str_replace('[[personemail]]', $post_email, $body);
+    $body = str_replace('[[persondetail]]', $post_content, $body);
+    $from_name="your sender title";
         
         
     //  "SELECT count(*),created_on FROM useres_table group by DATE_FORMAT(created_on, "%m-%d-%Y")";
